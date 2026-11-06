@@ -8,9 +8,17 @@ tags: ["Poetry"]
 
 {{< poem >}}
 The shimmering waters look loveliest beneath the clear blue sky.
+
+
 The mist-veiled mountains are equally enchanting in the rain.
+
+
 If I were to compare West Lake to Xi Shi, the legendary beauty,
+
+
 She is equally captivating, whether simply adorned or richly dressed.
+
+
 {{< /poem >}}
 
 
@@ -29,7 +37,7 @@ As the weather shifted from sunshine to rain, Su Shi witnessed the lake and its 
 
 
 
-### "The shimmering waters look loveliest beneath the clear blue sky「水光瀲灩晴方好」"
+### "The shimmering waters look loveliest beneath the clear blue sky"
 Here, Su Shi captures the beauty of West Lake on a sunny day. Sunlight dances across the water, creating a sparkling, ever-changing surface.
 
 
