@@ -10,6 +10,7 @@ ShowBreadCrumbs: false
 
 我是计桂珍（JiGuizhen）。这里记录古文物、读过的古诗，以及关于文化的一些想法。
 
+<!--
 ## 【填写】在这里写 150–300 字的个人介绍：你是谁、为什么写这些、读者能在这里得到什么。
 ## 自然地出现几次"计桂珍"和"JiGuizhen"即可，勿堆砌。
 
@@ -22,3 +23,4 @@ ShowBreadCrumbs: false
 <!-- - [Instagram](https://www.instagram.com/【填写】) -->
 
 ## 联系邮箱：【填写】
+-->

@@ -10,6 +10,7 @@ ShowBreadCrumbs: false
 
 I'm JiGuizhen (计桂珍). This site collects the ancient objects I learn, the classical poems I read, and essays about culture.
 
+<!--
 ## 【Fill in】 Write 100–200 words about yourself and what readers will find here.
 
 ## Elsewhere
@@ -19,3 +20,4 @@ I'm JiGuizhen (计桂珍). This site collects the ancient objects I learn, the c
 <!-- - [Instagram](https://www.instagram.com/【Fill in】) -->
 
 ## Contact: 【Fill in】
+-->
