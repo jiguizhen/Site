@@ -1,6 +1,6 @@
 ---
 title: "关于计桂珍"
-description: "计桂珍，写古物、古诗鉴赏与文化随笔。"
+description: "写古物 讀古诗 聆聽遠古回聲"
 schemaPerson: true
 hidemeta: true
 ShowBreadCrumbs: false
