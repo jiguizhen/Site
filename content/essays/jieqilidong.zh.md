@@ -5,7 +5,7 @@ slug: "jieqilidong"
 description: "立冬的由來"
 tags: ["節氣"]
 cover:
-  image: "/img/jieqilidong/lidongcover.jpeg"
+  image: "/img/jieqilidong/lidonglake.jpeg"
   alt: "節氣立冬"
   relative: false
 ---
