@@ -1,0 +1,128 @@
+baseURL = "https://jiguizhen.com/"
+title = "计桂珍 | Echoes of China 古物·古诗·文化随笔"
+theme = "PaperMod"
+
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 12
+
+[taxonomies]
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  mainSections = ["finds", "poetry", "essays"]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowShareButtons = false
+  images = ["/img/计桂珍.jpg"]
+
+  # ====【填写 1】外部账号主页网址（用于 Google 识别"这些账号都是同一个人"）====
+  # 每个账号一行，用英文引号，行末加英文逗号。没有就保持为空 []。
+  # 示例（取消注释并替换）：
+  #   "https://github.com/用户名",
+  #   "https://www.zhihu.com/people/你的用户名",
+  sameAs = [
+  ]
+
+# ====【填写 2】页头的社交图标（只放有专用图标的平台）====
+# 注册好账号后，去掉下面几行开头的 # 并填写用户名。
+# 知乎、豆瓣、微博等不放这里，只放在上面的 sameAs 和关于页。
+#
+# [[params.socialIcons]]
+#   name = "github"
+#   url = "https://github.com/【填写】"
+# [[params.socialIcons]]
+#   name = "instagram"
+#   url = "https://www.instagram.com/【填写】"
+# [[params.socialIcons]]
+#   name = "pinterest"
+#   url = "https://www.pinterest.com/【填写】"
+# [[params.socialIcons]]
+#   name = "youtube"
+#   url = "https://www.youtube.com/@【填写】"
+# [[params.socialIcons]]
+#   name = "linkedin"
+#   url = "https://www.linkedin.com/in/【填写】"
+
+# ---------------- 中文 ----------------
+[languages.zh]
+  languageName = "中文"
+  weight = 1
+  locale = "zh-CN"
+  title = "计桂珍 | 古物·古诗·文化随笔"
+
+  [languages.zh.params]
+    author = "计桂珍"
+    description = "计桂珍的个人网站：古物介绍、古诗鉴赏、文化随笔。"
+    [languages.zh.params.label]
+      text = "计桂珍"
+    [languages.zh.params.homeInfoParams]
+      Title = "计桂珍"
+      Content = "写古物，读古诗，也写一些关于文化的随笔。这里是计桂珍（JiGuizhen）的个人网站。"
+
+  [[languages.zh.menus.main]]
+    name = "古物"
+    pageRef = "/finds"
+    weight = 10
+  [[languages.zh.menus.main]]
+    name = "古诗"
+    pageRef = "/poetry"
+    weight = 20
+  [[languages.zh.menus.main]]
+    name = "随笔"
+    pageRef = "/essays"
+    weight = 30
+  [[languages.zh.menus.main]]
+    name = "标签"
+    pageRef = "/tags"
+    weight = 40
+  [[languages.zh.menus.main]]
+    name = "关于"
+    pageRef = "/about"
+    weight = 50
+
+# ---------------- English ----------------
+[languages.en]
+  languageName = "English"
+  weight = 2
+  locale = "en"
+  title = "JiGuizhen | Objects, Poetry & Cultural Essays"
+
+  [languages.en.params]
+    author = "JiGuizhen"
+    description = "Personal site of JiGuizhen: Ancient objects, classical Chinese poetry appreciation, and essays on culture."
+    [languages.en.params.label]
+      text = "JiGuizhen"
+    [languages.en.params.homeInfoParams]
+      Title = "JiGuizhen"
+      Content = "Notes on small ancient objects, classical Chinese poetry, and culture. This is the personal site of JiGuizhen (计桂珍)."
+
+  [[languages.en.menus.main]]
+    name = "Finds"
+    pageRef = "/finds"
+    weight = 10
+  [[languages.en.menus.main]]
+    name = "Poetry"
+    pageRef = "/poetry"
+    weight = 20
+  [[languages.en.menus.main]]
+    name = "Essays"
+    pageRef = "/essays"
+    weight = 30
+  [[languages.en.menus.main]]
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 40
+  [[languages.en.menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 50

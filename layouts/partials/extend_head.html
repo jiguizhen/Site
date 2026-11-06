@@ -1,0 +1,27 @@
+{{- if or .IsHome .Params.schemaPerson }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://JiGuizhen.com/#person",
+  "name": "计桂珍",
+  "alternateName": ["JiGuizhen"],
+  "url": "https://jiguizhen.com/",
+  "image": "https://jiguizhen.com/img/计桂珍.jpg",
+  "sameAs": [{{ range $i, $u := site.Params.sameAs }}{{ if $i }}, {{ end }}"{{ $u }}"{{ end }}]
+}
+</script>
+{{- end }}
+
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.Title }}",
+  "alternateName": "计桂珍",
+  "url": "https://jiguizhen.com/",
+  "inLanguage": "{{ site.Language.Lang }}"
+}
+</script>
+{{- end }}

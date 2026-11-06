@@ -1,0 +1,20 @@
+:root { --main-width: 760px; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+}
+
+.post-content { line-height: 1.95; }
+.post-content p { letter-spacing: 0.02em; }
+.post-content img { border-radius: 6px; }
+
+.poem {
+  text-align: center;
+  white-space: pre-line;
+  font-family: "Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong", "SimSun", serif;
+  font-size: 1.15em;
+  line-height: 2.2;
+  letter-spacing: 0.08em;
+  margin: 2em 0;
+}
