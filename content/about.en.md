@@ -6,7 +6,7 @@ hidemeta: true
 ShowBreadCrumbs: false
 ---
 
-![Zhang Yisan](/img/计桂珍.jpg)
+![JiGuizhen](/img/计桂珍.jpg)
 
 I'm JiGuizhen (计桂珍). This site collects the ancient objects I learn, the classical poems I read, and essays about culture.
 
